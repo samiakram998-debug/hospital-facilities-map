@@ -7,50 +7,50 @@
 
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+  <!-- Leaflet Search CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
 
   <style>
     body { margin: 0; padding: 0; }
     #map { height: 100vh; width: 100%; }
-    h2 { text-align: center; margin: 10px 0; }
   </style>
 </head>
 <body>
-  <h2>Hospital Facilities Map</h2>
+  <h2 style="text-align:center;">Hospital Facilities Map</h2>
   <div id="map"></div>
 
+  <!-- Leaflet JS -->
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <!-- Geocoder plugin -->
   <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
 
   <script>
+    // Initialize map
     var map = L.map('map').setView([33.7, 73.05], 10);
 
+    // Add OSM tiles
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
 
-    // Load GeoJSON
+    // Load hospitals.geojson
     fetch('hospitals.geojson')
       .then(res => res.json())
       .then(data => {
         L.geoJSON(data, {
-          onEachFeature: function(feature, layer) {
-            const p = feature.properties;
-
-            // Bind popup with relevant details
+          onEachFeature: function (feature, layer) {
+            const props = feature.properties;
             layer.bindPopup(`
-              <b>${p.name || "No name"}</b><br>
-              Type: ${p.type || "Not available"}<br>
-              Ownership: ${p.ownership || "Not available"}<br>
-              Beds: ${p.beds || "Not available"}<br>
-              Address: ${p.address || "Not available"}<br>
-              Speciality: ${p["healthcare:speciality"] || "Not available"}<br>
-              Wikipedia: <a href="https://en.wikipedia.org/wiki/${p.name}" target="_blank">Link</a>
+              <b>${props.name}</b><br>
+              Type: ${props.type || "Not available"}<br>
+              Ownership: ${props.ownership || "Not available"}<br>
+              Beds: ${props.beds || "Not available"}<br>
+              Address: ${props.address || "Not available"}
             `);
           }
         }).addTo(map);
-      })
-      .catch(err => console.error("Error loading GeoJSON:", err));
+      });
 
     // Add search/geocoder
     L.Control.geocoder().addTo(map);
