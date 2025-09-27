@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hospital Facilities Map</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+
+  <!-- MarkerCluster CSS -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.css" />
+
+  <style>
+    html,body,#map { height:100%; margin:0; padding:0; }
+    #map { height: 92vh; }
+    #search { position:absolute; top:10px; left:10px; z-index:1000;
+              background:#fff; padding:6px; border-radius:4px; box-shadow:0 0 6px rgba(0,0,0,0.2);}
+  </style>
+</head>
+<body>
+  <div id="search">
+    <input id="q" placeholder="Search hospital name..." />
+    <button id="btn">Search</button>
+    <button id="reset">Reset</button>
+  </div>
+  <div id="map"></div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+
+  <!-- MarkerCluster JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
+
+  <script>
+  // Map init (center on Islamabad for now)
+  const map = L.map('map').setView([33.6946, 73.0479], 10);
+
+  const osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19, attribution: '© OpenStreetMap contributors'
+  }).addTo(map);
+
+  const markers = L.markerClusterGroup();
+  let allMarkers = []; // {marker, name}
+
+  // load GeoJSON
+  fetch('data/hospitals.geojson')
+    .then(r => r.json())
+    .then(data => {
+      const gj = L.geoJSON(data, {
+        pointToLayer: function(feature, latlng){
+          const m = L.marker(latlng);
+          const nm = (feature.properties && feature.properties.name) ? feature.properties.name : '';
+          allMarkers.push({ marker: m, name: nm.toLowerCase() });
+          return m;
+        },
+        onEachFeature: function(feature, layer){
+          const p = feature.properties || {};
+          let html = `<b>${p.name || 'No name'}</b><br>`;
+          if(p.type) html += `Type: ${p.type}<br>`;
+          if(p.beds) html += `Beds: ${p.beds}<br>`;
+          if(p.address) html += `Address: ${p.address}<br>`;
+          layer.bindPopup(html);
+        }
+      });
+      gj.eachLayer(l => markers.addLayer(l));
+      map.addLayer(markers);
+      if (markers.getBounds().isValid()) map.fitBounds(markers.getBounds());
+    })
+    .catch(err => console.error('Failed to load hospitals.geojson', err));
+
+  // Search function
+  function search(q) {
+    const t = q.trim().toLowerCase();
+    markers.clearLayers();
+    if (!t) {
+      allMarkers.forEach(o => markers.addLayer(o.marker));
+      if (markers.getBounds().isValid()) map.fitBounds(markers.getBounds());
+      return;
+    }
+    const matched = allMarkers.filter(o => o.name.includes(t));
+    matched.forEach(o => markers.addLayer(o.marker));
+    if (matched.length){
+      const group = L.featureGroup(matched.map(o => o.marker));
+      map.fitBounds(group.getBounds(), { maxZoom: 15 });
+    }
+  }
+
+  document.getElementById('btn').onclick = ()=> search(document.getElementById('q').value);
+  document.getElementById('q').addEventListener('keypress', e => { if (e.key === 'Enter') search(e.target.value); });
+  document.getElementById('reset').onclick = ()=> { document.getElementById('q').value=''; search(''); };
+  </script>
+</body>
+</html>

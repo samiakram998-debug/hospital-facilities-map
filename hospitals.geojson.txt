@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "General Hospital Islamabad",
+        "type": "Hospital",
+        "beds": 250,
+        "address": "Sector G-8, Islamabad"
+      },
+      "geometry": { "type": "Point", "coordinates": [73.0479, 33.6946] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Charity Clinic Jhelum",
+        "type": "Clinic",
+        "beds": 20,
+        "address": "Main Rd, Jhelum"
+      },
+      "geometry": { "type": "Point", "coordinates": [73.7333, 32.9333] }
+    }
+  ]
+}
