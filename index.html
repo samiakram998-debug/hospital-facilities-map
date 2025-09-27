@@ -7,22 +7,22 @@
 
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-
-  <!-- Leaflet Search CSS -->
+  <!-- Geocoder CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
 
   <style>
     body { margin: 0; padding: 0; }
     #map { height: 100vh; width: 100%; }
+    h2 { text-align: center; margin: 10px 0; }
   </style>
 </head>
 <body>
-  <h2 style="text-align:center;">Hospital Facilities Map</h2>
+  <h2>Hospital Facilities Map</h2>
   <div id="map"></div>
 
   <!-- Leaflet JS -->
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  <!-- Geocoder plugin -->
+  <!-- Geocoder JS -->
   <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
 
   <script>
@@ -34,23 +34,32 @@
       attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
 
-    // Load hospitals.geojson
+    // Load GeoJSON
     fetch('hospitals.geojson')
       .then(res => res.json())
       .then(data => {
         L.geoJSON(data, {
-          onEachFeature: function (feature, layer) {
+          onEachFeature: function(feature, layer) {
             const props = feature.properties;
+
+            // Check the properties names in console
+            console.log(props);
+
+            // Bind popup using correct property names from your GeoJSON
             layer.bindPopup(`
-              <b>${props.name}</b><br>
-              Type: ${props.type || "Not available"}<br>
-              Ownership: ${props.ownership || "Not available"}<br>
-              Beds: ${props.beds || "Not available"}<br>
-              Address: ${props.address || "Not available"}
+              <b>${props.Hospital_Name || "No name"}</b><br>
+              Type: ${props.Hospital_Type || "Not available"}<br>
+              Ownership: ${props.Owner || "Not available"}<br>
+              Beds: ${props.Num_Beds || "Not available"}<br>
+              Address: ${props.Address || "Not available"}
             `);
+
+            // Optional: Debug popup showing all properties
+            // layer.bindPopup("<pre>" + JSON.stringify(props, null, 2) + "</pre>");
           }
         }).addTo(map);
-      });
+      })
+      .catch(err => console.error("Failed to load GeoJSON:", err));
 
     // Add search/geocoder
     L.Control.geocoder().addTo(map);
