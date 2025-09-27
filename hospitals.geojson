@@ -5,131 +5,175 @@
       "type": "Feature",
       "properties": {
         "name": "Pakistan Institute of Medical Sciences (PIMS)",
-        "type": "Government Hospital",
-        "beds": 1000,
-        "address": "G-8/3, Islamabad"
+        "type": "Hospital",
+        "beds": 592,
+        "address": "Sector G-8/3, Islamabad"
       },
-      "geometry": { "type": "Point", "coordinates": [73.0551, 33.6938] }
+      "geometry": { "type": "Point", "coordinates": [73.056368, 33.703662] }
     },
     {
       "type": "Feature",
       "properties": {
         "name": "Shifa International Hospital",
-        "type": "Private Hospital",
-        "beds": 700,
-        "address": "H-8/4, Islamabad"
+        "type": "Hospital",
+        "beds": 550,
+        "address": "Pitras Bukhari Rd, Islamabad"
       },
-      "geometry": { "type": "Point", "coordinates": [73.0539, 33.6672] }
+      "geometry": { "type": "Point", "coordinates": [73.0676, 33.6752] }
     },
     {
       "type": "Feature",
       "properties": {
         "name": "Kulsum International Hospital",
-        "type": "Private Hospital",
+        "type": "Hospital",
         "beds": 200,
-        "address": "Blue Area, Islamabad"
+        "address": "Jinnah Avenue / Blue Area, Islamabad"
       },
-      "geometry": { "type": "Point", "coordinates": [73.0659, 33.7135] }
+      "geometry": { "type": "Point", "coordinates": [73.07275, 33.71809] }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Maroof International Hospital",
-        "type": "Private Hospital",
-        "beds": 250,
-        "address": "F-10 Markaz, Islamabad"
+        "name": "Polyclinic Hospital",
+        "type": "Hospital",
+        "beds": 545,
+        "address": "Shaheed-e-Millat Rd / G-6, Islamabad"
       },
-      "geometry": { "type": "Point", "coordinates": [73.0246, 33.7016] }
+      "geometry": { "type": "Point", "coordinates": [73.08281, 33.72110] }
     },
     {
       "type": "Feature",
       "properties": {
         "name": "Ali Medical Centre",
-        "type": "Private Hospital",
-        "beds": 100,
-        "address": "F-8 Markaz, Islamabad"
+        "type": "Hospital",
+        "beds": 120,
+        "address": "Kohistan Rd, F-8 Markaz, Islamabad"
       },
-      "geometry": { "type": "Point", "coordinates": [73.0370, 33.7132] }
+      "geometry": { "type": "Point", "coordinates": [73.04176, 33.71047] }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Islamabad Diagnostic Centre",
-        "type": "Clinic",
-        "beds": 20,
-        "address": "Blue Area, Islamabad"
+        "name": "Maroof International Hospital",
+        "type": "Hospital",
+        "beds": 200,
+        "address": "F-10 Markaz, Islamabad"
       },
-      "geometry": { "type": "Point", "coordinates": [73.0585, 33.7120] }
+      "geometry": { "type": "Point", "coordinates": [73.01183, 33.69747] }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Holy Family Hospital",
-        "type": "Government Hospital",
-        "beds": 850,
+        "name": "Quaid-e-Azam International Hospital (QIH)",
+        "type": "Hospital",
+        "beds": 225,
+        "address": "Near Golra Morr, Peshawar Rd / H-13"
+      },
+      "geometry": { "type": "Point", "coordinates": [72.97303, 33.62508] }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Benazir Bhutto Hospital (Rawalpindi General)",
+        "type": "Hospital",
+        "beds": 750,
+        "address": "Murree Rd, Rawalpindi"
+      },
+      "geometry": { "type": "Point", "coordinates": [73.07172, 33.62758] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Holy Family Hospital (Rawalpindi)",
+        "type": "Hospital",
+        "beds": 864,
         "address": "Satellite Town, Rawalpindi"
       },
-      "geometry": { "type": "Point", "coordinates": [73.0667, 33.6264] }
+      "geometry": { "type": "Point", "coordinates": [73.05778, 33.64056] }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Benazir Bhutto Hospital (Rawalpindi General Hospital)",
-        "type": "Government Hospital",
-        "beds": 950,
-        "address": "Murree Road, Rawalpindi"
+        "name": "Rawalpindi Institute of Cardiology (RIC)",
+        "type": "Hospital",
+        "beds": 272,
+        "address": "Rawal Rd, Rawalpindi"
       },
-      "geometry": { "type": "Point", "coordinates": [73.0730, 33.6406] }
+      "geometry": { "type": "Point", "coordinates": [73.08064, 33.61559] }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Armed Forces Institute of Cardiology (AFIC)",
-        "type": "Specialized Hospital",
-        "beds": 400,
-        "address": "The Mall, Rawalpindi"
+        "name": "Combined Military Hospital (CMH) Rawalpindi",
+        "type": "Hospital",
+        "beds": 1000,
+        "address": "CMH Rd, Rawalpindi"
       },
-      "geometry": { "type": "Point", "coordinates": [73.0556, 33.5989] }
+      "geometry": { "type": "Point", "coordinates": [73.047168, 33.581093] }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Rawalpindi Institute of Urology & Transplantation (RIUT)",
-        "type": "Specialized Hospital",
+        "name": "Fauji Foundation Hospital (Rawalpindi)",
+        "type": "Hospital",
+        "beds": 600,
+        "address": "Jhelum Rd, Rawalpindi"
+      },
+      "geometry": { "type": "Point", "coordinates": [73.09548, 33.55233] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Railway General Hospital (Pakistan Railway Hospital)",
+        "type": "Hospital",
         "beds": 200,
-        "address": "Tipu Road, Rawalpindi"
+        "address": "Railway Carriage Factory Rd, Westridge, Rawalpindi"
       },
-      "geometry": { "type": "Point", "coordinates": [73.0775, 33.6055] }
+      "geometry": { "type": "Point", "coordinates": [73.07562, 33.62732] }
     },
+
     {
       "type": "Feature",
       "properties": {
-        "name": "Bilal Hospital",
-        "type": "Private Hospital",
-        "beds": 120,
-        "address": "Saidpur Road, Rawalpindi"
-      },
-      "geometry": { "type": "Point", "coordinates": [73.0735, 33.6260] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Fauji Foundation Hospital",
-        "type": "Private/Trust Hospital",
-        "beds": 750,
+        "name": "Al-Shifa Trust Eye Hospital (Rawalpindi)",
+        "type": "Hospital / Eye-centre",
+        "beds": null,
         "address": "Jhelum Road, Rawalpindi"
       },
-      "geometry": { "type": "Point", "coordinates": [73.0902, 33.6009] }
+      "geometry": { "type": "Point", "coordinates": [73.09222, 33.55944] }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "City Clinic (Commercial Market / Satellite Town, Rawalpindi) - proxy",
+        "type": "Clinic",
+        "beds": 8,
+        "address": "Commercial Market, Satellite Town, Rawalpindi (proxy location)"
+      },
+      "geometry": { "type": "Point", "coordinates": [73.07036, 33.63769] }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Shaafi Clinic",
+        "name": "F-10 Family Clinic (F-10 Markaz) - proxy",
         "type": "Clinic",
-        "beds": 15,
-        "address": "Commercial Market, Satellite Town, Rawalpindi"
+        "beds": 10,
+        "address": "F-10 Markaz, Islamabad (approx.)"
       },
-      "geometry": { "type": "Point", "coordinates": [73.0675, 33.6267] }
+      "geometry": { "type": "Point", "coordinates": [73.00332, 33.696824] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Blue Area Clinic (Blue Area, Islamabad) - proxy",
+        "type": "Clinic",
+        "beds": 12,
+        "address": "Blue Area, Jinnah Avenue, Islamabad (approx.)"
+      },
+      "geometry": { "type": "Point", "coordinates": [73.061926, 33.713335] }
     }
+
   ]
 }
