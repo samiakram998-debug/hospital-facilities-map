@@ -8,22 +8,21 @@
   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 
-  <!-- Geocoder CSS -->
+  <!-- Leaflet Search CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
 
   <style>
     body { margin: 0; padding: 0; }
     #map { height: 100vh; width: 100%; }
-    h2 { text-align: center; margin: 10px 0; }
   </style>
 </head>
 <body>
-  <h2>Hospital Facilities Map</h2>
+  <h2 style="text-align:center;">Hospital Facilities Map</h2>
   <div id="map"></div>
 
   <!-- Leaflet JS -->
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  <!-- Geocoder JS -->
+  <!-- Geocoder plugin -->
   <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
 
   <script>
@@ -35,16 +34,15 @@
       attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
 
-    // Load GeoJSON from GitHub raw URL
-    fetch('RAW_GITHUB_URL_HERE') // <-- Replace this with your raw GitHub URL
+    // Load hospitals.geojson
+    fetch('hospitals.geojson')
       .then(res => res.json())
       .then(data => {
         L.geoJSON(data, {
           onEachFeature: function (feature, layer) {
             const props = feature.properties;
-            // Bind detailed popup
             layer.bindPopup(`
-              <b>${props.name || "No name"}</b><br>
+              <b>${props.name}</b><br>
               Type: ${props.type || "Not available"}<br>
               Ownership: ${props.ownership || "Not available"}<br>
               Beds: ${props.beds || "Not available"}<br>
@@ -52,9 +50,6 @@
             `);
           }
         }).addTo(map);
-      })
-      .catch(err => {
-        console.error("Failed to load GeoJSON:", err);
       });
 
     // Add search/geocoder
