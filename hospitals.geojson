@@ -11,10 +11,11 @@
         "amenity": "hospital",
         "landuse": "military",
         "name": "Military Hospital",
-        "type": "multipolygon",
+        "type": "Hospital",
         "@geometry": "center",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "CMH Rd / Abid Majeed Rd area, Rawalpindi",
+        "ownership": "Military",
+        "beds": "1000+"
       },
       "geometry": {
         "type": "Point",
@@ -43,9 +44,10 @@
         "healthcare": "hospital",
         "name": "Pakistan Institute for Medical Sciences (PIMS)",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Sector G-8/3, Islamabad",
+        "ownership": "Government",
+        "type": "Hospital",
+        "beds": "592"
       },
       "geometry": {
         "type": "Point",
@@ -69,9 +71,10 @@
         "name:en": "Noori Hospital",
         "name:ur": "نوری ہسپتال",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -101,9 +104,10 @@
         "phone": "+92-51-846-3000",
         "website": "https://www.shifa.com.pk/contact/",
         "@geometry": "center",
-        "type": "Private Hospital",
-        "beds": "550",
-        "address": "H-8/4, Islamabad"
+        "address": "Pitras Bukhari Rd, Sector H-8/4, Islamabad",
+        "ownership": "Private",
+        "type": "Hospital",
+        "beds": "550"
       },
       "geometry": {
         "type": "Point",
@@ -125,9 +129,10 @@
         "wikidata": "Q30279984",
         "wikipedia": "en:Holy Family Hospital, Rawalpindi",
         "@geometry": "center",
-        "type": "Government Hospital",
-        "beds": "850",
-        "address": "Satellite Town, Rawalpindi"
+        "address": "Satellite Town, Rawalpindi",
+        "ownership": "Government",
+        "type": "Hospital",
+        "beds": "864"
       },
       "geometry": {
         "type": "Point",
@@ -147,9 +152,10 @@
         "created_by": "Potlatch 0.8",
         "name": "Al Ihsan Hospital",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -169,9 +175,10 @@
         "healthcare": "hospital",
         "name": "DHQ Hospital",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -197,9 +204,10 @@
         "opening_hours": "24/7",
         "phone": "0302 5002553",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "The Mall, Rawalpindi",
+        "ownership": "Military",
+        "type": "Specialized Hospital (Cardiology)",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -221,9 +229,10 @@
         "healthcare": "hospital",
         "name": "Mega Medical Complex,",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -244,9 +253,10 @@
         "is_in": "Rawalpindi, Punjab, Pakistan",
         "name": "Combined Military Hospital",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "CMH Rd / Abid Majeed Rd area, Rawalpindi",
+        "ownership": "Military",
+        "type": "Hospital",
+        "beds": "1000+"
       },
       "geometry": {
         "type": "Point",
@@ -275,9 +285,10 @@
         "internet_access": "yes",
         "name": "Bilal Hospital",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Saidpur Road area, Rawalpindi (approx)",
+        "ownership": "Private",
+        "type": "Hospital",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -295,9 +306,10 @@
         "amenity": "hospital",
         "name": "MI Room",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -319,9 +331,10 @@
         "wikidata": "Q14956839",
         "wikipedia": "en:Rawalpindi Institute of Cardiology",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Rawal Rd, Rawalpindi",
+        "ownership": "Government",
+        "type": "Hospital (Cardiology)",
+        "beds": "272"
       },
       "geometry": {
         "type": "Point",
@@ -340,9 +353,10 @@
         "healthcare": "hospital",
         "name": "AFPGMI",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -360,9 +374,10 @@
         "amenity": "hospital",
         "building": "yes",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -381,9 +396,10 @@
         "building": "yes",
         "name": "Attock Hospital (Ptv) Limited",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -402,9 +418,10 @@
         "building": "yes",
         "name": "Hassan Clinic",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -424,9 +441,10 @@
         "building": "yes",
         "name": "Valley Clinic",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -445,9 +463,10 @@
         "building": "yes",
         "name": "Maryam Mamorial Hospital",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Peshawar Rd / Rawalpindi",
+        "ownership": "Private",
+        "type": "Hospital",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -467,9 +486,10 @@
         "building": "yes",
         "name": "Nusrat Hospital",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -489,9 +509,10 @@
         "building": "yes",
         "name": "Azmat Rashid",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -518,9 +539,10 @@
         "name": "Al Syed Hospital Kidney Center",
         "opening_hours": "Mo-Sa 12:00-16:00",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -539,9 +561,10 @@
         "building": "yes",
         "name": "Basharat Hospital",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -560,9 +583,10 @@
         "building": "yes",
         "name": "Amjad Medical Center",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -581,9 +605,10 @@
         "building": "yes",
         "healthcare": "hospital",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -613,9 +638,10 @@
         "name": "Quaid-e-Azam International Hospital",
         "wheelchair": "yes",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -634,9 +660,10 @@
         "building": "yes",
         "name": "Hearts International",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -654,9 +681,10 @@
         "amenity": "hospital",
         "building": "yes",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -676,9 +704,10 @@
         "healthcare": "hospital",
         "is_in": "Rawalpindi, Punjab, Pakistan",
         "name": "CMH",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "CMH Rd, Rawalpindi",
+        "ownership": "Military",
+        "type": "Hospital",
+        "beds": "1000+"
       },
       "geometry": {
         "type": "Point",
@@ -697,9 +726,10 @@
         "created_by": "Potlatch 0.8a",
         "is_in": "Rawalpindi Cantt.",
         "name": "Healthways",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -719,9 +749,10 @@
         "emergency": "no",
         "name": "NIH",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -740,9 +771,10 @@
         "building": "yes",
         "name": "Rawal Hospital",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Kuri Rd, Islamabad",
+        "ownership": "Private",
+        "type": "Hospital",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -763,9 +795,10 @@
         "building": "yes",
         "name": "Islamabad Medical Complex",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -783,9 +816,10 @@
         "amenity": "hospital",
         "name": "TB Hospital",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -804,9 +838,10 @@
         "building": "yes",
         "name": "Mushtaq Baig Shaheed Medical Clinic",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -828,9 +863,10 @@
         "operator": "DHA",
         "operator:type": "private",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -853,9 +889,10 @@
         "website": "https://www.nih.org.pk/",
         "wikipedia": "en:National Institute of Health, Islamabad",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -883,9 +920,10 @@
         "operator:en": "Dr. Shoaib Hameed",
         "operator:ur": "ڈاکٹر شعیب حمید",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -904,9 +942,10 @@
         "healthcare": "hospital",
         "name": "Social Security Hospital",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -935,9 +974,10 @@
         "building": "yes",
         "name": "CDA Dispensary",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -963,9 +1003,10 @@
         "building": "hospital",
         "name": "Jinnah Memorial Hospital",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -984,9 +1025,10 @@
         "healthcare": "hospital",
         "name": "Golra Hospital",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1013,9 +1055,10 @@
         "healthcare": "clinic",
         "name": "Bangash Clinic",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1039,9 +1082,10 @@
         "amenity": "hospital",
         "name": "Cantonment Board Gen Hospital",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1060,9 +1104,10 @@
         "healthcare": "hospital",
         "name": "Leprosy Hospital Rawalpindi",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1088,9 +1133,10 @@
         "healthcare": "hospital",
         "name": "Al-Shifa Eye Hospital",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Jhelum Road, Rawalpindi",
+        "ownership": "Private/Trust",
+        "type": "Eye Hospital / Clinic",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1112,9 +1158,10 @@
         "name:en": "Shaafi International Hospital",
         "name:ur": "شفیع انٹرنیشنل ہسپتال",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1135,9 +1182,10 @@
         "name": "Fauji Foundation Hospital",
         "name:en": "Fauji Foundation Hospital",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Jhelum Rd, Rawalpindi",
+        "ownership": "Trust/Private",
+        "type": "Hospital",
+        "beds": "600"
       },
       "geometry": {
         "type": "Point",
@@ -1156,9 +1204,10 @@
         "building": "yes",
         "healthcare": "clinic",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1178,9 +1227,10 @@
         "name": "Medical Center",
         "source": "microsoft/BuildingFootprints",
         "@geometry": "center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1197,9 +1247,10 @@
         "@id": "node/1362714223",
         "amenity": "hospital",
         "name": "Safari Hospital",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1217,9 +1268,10 @@
         "amenity": "hospital",
         "emergency": "yes",
         "name": "Shakeela Shabir Hospital",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1251,9 +1303,10 @@
         "healthcare:speciality": "general",
         "name": "Begam Jan Hospital",
         "phone": "+923235380006",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1281,9 +1334,10 @@
         "emergency": "yes",
         "name": "Bilquis Memorial Hospital",
         "source": "Survey",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1300,9 +1354,10 @@
         "@id": "node/2382402089",
         "amenity": "hospital",
         "name": "Nawaz Memorial",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1319,9 +1374,10 @@
         "@id": "node/2441070147",
         "amenity": "hospital",
         "name": "Chinese",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1338,9 +1394,10 @@
         "@id": "node/2445280289",
         "amenity": "hospital",
         "name": "Iqbal Clinic",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1358,9 +1415,10 @@
         "amenity": "hospital",
         "name": "nisar hospital",
         "name:en": "nisar hospital",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Afzal Town, Rawalpindi",
+        "ownership": "Private",
+        "type": "Hospital",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1377,9 +1435,10 @@
         "@id": "node/2461171369",
         "amenity": "hospital",
         "name": "Nghat Altrsound",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1409,9 +1468,10 @@
         "healthcare:speciality": "general;neurosurgery;gynaecology;orthopaedics",
         "name": "Brain Surgery Hospital",
         "website": "https://brainsurgeryhospital.com/",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1440,9 +1500,10 @@
         "emergency": "yes",
         "healthcare": "hospital",
         "name": "NESCOM Hospital",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1459,9 +1520,10 @@
         "@id": "node/2668896365",
         "amenity": "hospital",
         "name": "Unanimous Hospital and Laboratory",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1478,9 +1540,10 @@
         "@id": "node/2668920461",
         "amenity": "clinic",
         "name": "Fatima Family Clinic",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1498,9 +1561,10 @@
         "addr:street": "Railway Road S",
         "amenity": "clinic",
         "name": "Dar Medical Complex",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1517,9 +1581,10 @@
         "@id": "node/3439434300",
         "amenity": "clinic",
         "name": "Msz Khan Clinic",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1536,9 +1601,10 @@
         "@id": "node/4082300074",
         "amenity": "hospital",
         "name": "Anwar Hospital",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1555,9 +1621,10 @@
         "@id": "node/4082300079",
         "amenity": "hospital",
         "name": "Al Sadiq-Saad Shaheed Hospital",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1584,9 +1651,10 @@
         "emergency": "no",
         "name": "Sohail Medical Clinic& Diagnostic Lab",
         "operator": "Sohail Bacha",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1606,9 +1674,10 @@
         "amenity": "hospital",
         "name": "Patient Care Centre",
         "opening_hours": "24/7",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1626,9 +1695,10 @@
         "addr:street": "Murree Road",
         "amenity": "clinic",
         "name": "Humdard Dawakhana",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1652,9 +1722,10 @@
         "addr:street": "Iran Road",
         "amenity": "clinic",
         "name": "Heart Care Centre",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1671,9 +1742,10 @@
         "@id": "node/4467122089",
         "amenity": "hospital",
         "internet_access": "wlan",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1691,9 +1763,10 @@
         "amenity": "clinic",
         "name": "Laprosy Hospital",
         "opening_hours": "Mo-Fr",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1714,9 +1787,10 @@
         "name:en": "Dua Family Hospital",
         "opening_hours": "Mo-Fr 17:00-21:00",
         "phone": "03005818148",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1735,9 +1809,10 @@
         "healthcare": "hospital",
         "name": "Ali hospital",
         "name:en": "Ali hospital",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1755,9 +1830,10 @@
         "amenity": "hospital",
         "emergency": "yes",
         "name": "Farid Family Hospital",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1778,9 +1854,10 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Premium Diagnostic Centre",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1796,9 +1873,10 @@
       "properties": {
         "@id": "node/4596125582",
         "amenity": "clinic",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1817,9 +1895,10 @@
         "name": "family hospital",
         "name:en": "family hospital",
         "phone": "03044684629",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Satellite Town, Rawalpindi",
+        "ownership": "Government",
+        "type": "Hospital",
+        "beds": "864"
       },
       "geometry": {
         "type": "Point",
@@ -1837,9 +1916,10 @@
         "amenity": "clinic",
         "name": "Bismillah diagonostic centre",
         "name:en": "Bismillah diagonostic centre",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1856,9 +1936,10 @@
         "@id": "node/4666195507",
         "amenity": "hospital",
         "name": "Emergency Holy Family Hospital",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Satellite Town, Rawalpindi",
+        "ownership": "Government",
+        "type": "Hospital",
+        "beds": "864"
       },
       "geometry": {
         "type": "Point",
@@ -1880,9 +1961,10 @@
         "name": "Abrar Surgery",
         "name:en": "Abrar Surgery",
         "phone": "051-5565813",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1912,9 +1994,10 @@
         "name": "PAEC General Hospital",
         "opening_hours": "24/7",
         "wheelchair": "yes",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1936,9 +2019,10 @@
         "name:en": "St Joseph Hospice",
         "name:es": "Hospicio San José",
         "name:ur": "سینٹ جوزف ہاسپیس",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1962,9 +2046,10 @@
         "addr:street": "Khanna Road",
         "amenity": "clinic",
         "name": "Emaan Clinic",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -1986,9 +2071,10 @@
         "opening_hours": "Mo-Su 09:00-18:00",
         "phone": "03155115035",
         "website": "https://www.alhijamah.com/",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2014,9 +2100,10 @@
         "addr:street": "Shabir Sharif Road",
         "amenity": "hospital",
         "name": "Maryam Hospital and Diagnostic Center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Peshawar Rd / Rawalpindi",
+        "ownership": "Private",
+        "type": "Hospital",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2043,9 +2130,10 @@
         "amenity": "hospital",
         "name": "Al Ain International Specialist Eye Hospital",
         "phone": "03005319353",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2073,9 +2161,10 @@
         "name": "K R L General Hospital",
         "opening_hours": "Mo-Sa 11:00-14:00",
         "phone": "0519106270",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2102,9 +2191,10 @@
         "amenity": "clinic",
         "name": "Dr. Taliya's Clinic",
         "phone": "0512260010",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2130,9 +2220,10 @@
         "addr:street": "Street 9",
         "amenity": "hospital",
         "name": "National Institute for Handicapped",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2158,9 +2249,10 @@
         "addr:street": "Street 9",
         "amenity": "hospital",
         "name": "National Institute of Rehabilitation Medicine",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2184,9 +2276,10 @@
         "addr:street": "Murree Road",
         "amenity": "clinic",
         "name": "Ali Homeopathic Clinic",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2210,9 +2303,10 @@
         "addr:street": "6th Road",
         "amenity": "hospital",
         "name": "Urgent Medical Diagnostics Centre",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2236,9 +2330,10 @@
         "addr:street": "Iran Road",
         "amenity": "hospital",
         "name": "Gulf Medical Centre",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2262,9 +2357,10 @@
         "addr:street": "Sadiqabad Road",
         "amenity": "hospital",
         "name": "Ahmad Medical Complex",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2282,9 +2378,10 @@
         "amenity": "hospital",
         "name": "Eidhi",
         "name:en": "Eidhi",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2302,9 +2399,10 @@
         "amenity": "clinic",
         "name": "Doctor Tariq Ghani clinic",
         "name:en": "Doctor Tariq Ghani clinic",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2330,9 +2428,10 @@
         "addr:street": "Sawan Road",
         "amenity": "hospital",
         "name": "Life Care international Hospital",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2358,9 +2457,10 @@
         "addr:street": "Street 30",
         "amenity": "hospital",
         "name": "IHS - Hospital for Children",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2379,9 +2479,10 @@
         "name": "Dr.  Zia ul Haq MBBS Karam abad",
         "name:en": "Dr.  Zia ul Haq MBBS Karam abad",
         "opening_hours": "Mo-Su 09:00-13:00",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2397,9 +2498,10 @@
       "properties": {
         "@id": "node/5007417222",
         "amenity": "hospital",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2420,9 +2522,10 @@
         "name": "Riphah International Dental Hospital University",
         "opening_hours": "Mo-Sa 08:30-19:00; Su 00:00-24:00",
         "phone": "0512891835",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2447,9 +2550,10 @@
         "amenity": "hospital",
         "healthcare": "hospital",
         "name": "Reliance Hospital",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2468,9 +2572,10 @@
         "amenity": "clinic",
         "name": "Maj Gen Salman Ali Clinic",
         "phone": "0515136908",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2495,9 +2600,10 @@
         "amenity": "hospital",
         "healthcare": "hospital",
         "name": "KKT Orthopedic Spine Center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2517,9 +2623,10 @@
         "amenity": "hospital",
         "healthcare": "hospital",
         "name": "Railway Hospital",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Railway Carriage Factory Rd / Westridge, Rawalpindi",
+        "ownership": "Government (Railways)",
+        "type": "Hospital",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2539,9 +2646,10 @@
         "amenity": "clinic",
         "name": "Speech Therapy STCICLD",
         "phone": "+923329344003",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2558,9 +2666,10 @@
         "@id": "node/5595279927",
         "amenity": "hospital",
         "name": "Islamabad Diagnostics Center",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2577,9 +2686,10 @@
         "@id": "node/5617897022",
         "amenity": "hospital",
         "name": "OT Complex CMH",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2597,9 +2707,10 @@
         "addr:street": "PAF Base Nur Khan",
         "amenity": "clinic",
         "name": "Family Medical Wing",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2618,9 +2729,10 @@
         "amenity": "clinic",
         "name": "Prof Dr. Aslam Chaudhry ENT Specilist",
         "phone": "0514426886",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2637,9 +2749,10 @@
         "@id": "node/6186225788",
         "amenity": "hospital",
         "name": "Clinics and Diagnostics Hospital",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2657,9 +2770,10 @@
         "amenity": "clinic",
         "name": "Salfi House",
         "operator": "Iqbal Salfi",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2677,9 +2791,10 @@
         "amenity": "hospital",
         "name": "Ali Hospital",
         "phone": "0514444435",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2699,9 +2814,10 @@
         "healthcare": "hospital",
         "name": "Latif Health Centre",
         "name:en": "Latif Health Centre",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2718,9 +2834,10 @@
         "@id": "node/6219159985",
         "amenity": "hospital",
         "name": "Capital Institute of Health Sciences (CIHS)",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2737,9 +2854,10 @@
         "@id": "node/6237656989",
         "amenity": "clinic",
         "name": "Dr. Shahid’s Clinic",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2761,9 +2879,10 @@
         "name": "نوری ہسپتال اسلام آباد",
         "name:en": "Noori Hospital Islamabad",
         "name:ur": "نوری ہسپتال اسلام آباد",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2786,9 +2905,10 @@
         "healthcare": "hospital",
         "name": "Clinic and Dignostic Centre",
         "operator": "-",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2806,9 +2926,10 @@
         "amenity": "hospital",
         "healthcare": "hospital",
         "name": "Anwer Capital Hospital",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2826,9 +2947,10 @@
         "amenity": "hospital",
         "healthcare": "hospital",
         "name": "Zayneb Hospital",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2846,9 +2968,10 @@
         "amenity": "hospital",
         "healthcare": "hospital",
         "name": "Aziz Hospital",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2865,9 +2988,10 @@
         "@id": "node/7015066185",
         "amenity": "hospital",
         "name": "Officers Family Ward CMH Rawalpindi",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "CMH Rd, Rawalpindi",
+        "ownership": "Military",
+        "type": "Hospital",
+        "beds": "1000+"
       },
       "geometry": {
         "type": "Point",
@@ -2897,9 +3021,10 @@
         "healthcare:speciality": "diagnostic_radiology;haematology;blood_check;blood_bank;cardiology",
         "name": "Twin City Diagnostics",
         "website": "https://twincitylab.com/",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2930,9 +3055,10 @@
         "name": "Rahmat Noor Clinic",
         "operator": "Dr. Javaid Mehmood Malik",
         "operator:type": "private",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2964,9 +3090,10 @@
         "healthcare:speciality": "general;surgery;gynaecology;ophthalmology;paediatrics",
         "name": "HBS General Hospital",
         "phone": "+92512621044",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -2988,9 +3115,10 @@
         "name": "Major General (Retired) Dr. Mohammad Naeem Khan Neuro-Physician",
         "operator": "Major General (R) Dr. Muhammad Naeem Khan (Neurophysician)",
         "phone": "+923335145392",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -3007,9 +3135,10 @@
         "@id": "node/8266905517",
         "amenity": "hospital",
         "name": "Asia kidney hospital",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -3030,9 +3159,10 @@
         "name": "Haji Muhammad Bashir مطب ہڈی جوڑ",
         "opening_hours": "Mo-Su 08:00-20:00",
         "phone": "0514415145",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -3049,9 +3179,10 @@
         "@id": "node/8841662156",
         "amenity": "hospital",
         "name": "Max Health Hospital",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -3073,9 +3204,10 @@
         "opening_hours": "08:00-21:30",
         "phone": "+923023255553",
         "website": "https://shifa-health-care-hospital.business.site/",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -3092,9 +3224,10 @@
         "@id": "node/9534110317",
         "amenity": "clinic",
         "name": "Mushtaq Baig Shaheed Medical Clinic",
-        "type": "building",
-        "beds": "Not available",
-        "address": "Not available"
+        "type": "clinic",
+        "address": "Not available",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -3112,9 +3245,10 @@
         "addr:street": "G-8 Markaz",
         "amenity": "hospital",
         "name": "Advanced International Hospital G-8 Markaz",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -3138,9 +3272,10 @@
         "healthcare": "hospital",
         "healthcare:speciality": "dermatology;dermatovenereology",
         "name": "AT Skin & Aesthetic Clinic",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -3159,9 +3294,10 @@
         "healthcare": "hospital",
         "healthcare:speciality": "dentistry;dental_oral_maxillo_facial_surgery;dentist",
         "name": "Shifa College of Dentistry",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Pitras Bukhari Rd, Sector H-8/4, Islamabad",
+        "ownership": "Private",
+        "type": "Hospital",
+        "beds": "550"
       },
       "geometry": {
         "type": "Point",
@@ -3178,9 +3314,10 @@
         "@id": "node/11835524869",
         "amenity": "hospital",
         "name": "Hakim KAZMI",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -3198,9 +3335,10 @@
         "amenity": "clinic",
         "healthcare": "clinic",
         "name": "Ghazi Clinic",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "clinic",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -3221,9 +3359,10 @@
         "amenity": "hospital",
         "healthcare": "hospital",
         "name": "Mega Medical Complex",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -3245,9 +3384,10 @@
         "healthcare": "hospital",
         "healthcare:speciality": "diabetology",
         "name": "Alam Hospital",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -3272,9 +3412,10 @@
         "healthcare:speciality": "dentist;pharmacy",
         "mobile": "+923421945217",
         "name": "new gujjar khan medical store",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -3292,9 +3433,10 @@
         "amenity": "hospital",
         "healthcare": "hospital",
         "name": "IIUI MEDICAL CENTRE",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -3315,9 +3457,10 @@
         "opening_hours": "24/7",
         "phone": "(051) 2619276",
         "website": "https://elaajinternationalhospital.com/",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -3337,9 +3480,10 @@
         "name": "Health International Hospital",
         "opening_hours": "24/7",
         "phone": "(051) 2619271",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
@@ -3357,9 +3501,10 @@
         "amenity": "hospital",
         "healthcare": "hospital",
         "name": "noor generar hospital",
-        "type": "Not available",
-        "beds": "Not available",
-        "address": "Not available"
+        "address": "Not available",
+        "type": "hospital",
+        "ownership": "Not available",
+        "beds": "Not available"
       },
       "geometry": {
         "type": "Point",
