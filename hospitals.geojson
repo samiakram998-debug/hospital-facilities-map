@@ -14,13 +14,42 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "Charity Clinic Jhelum",
-        "type": "Clinic",
-        "beds": 20,
-        "address": "Main Rd, Jhelum"
+        "name": "Pakistan Institute of Medical Sciences (PIMS)",
+        "type": "Hospital",
+        "beds": 1000,
+        "address": "G-8/3, Islamabad"
       },
-      "geometry": { "type": "Point", "coordinates": [73.7333, 32.9333] }
+      "geometry": { "type": "Point", "coordinates": [73.0551, 33.6938] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shifa International Hospital",
+        "type": "Hospital",
+        "beds": 700,
+        "address": "H-8/4, Islamabad"
+      },
+      "geometry": { "type": "Point", "coordinates": [73.0539, 33.6672] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kulsum International Hospital",
+        "type": "Hospital",
+        "beds": 200,
+        "address": "Jinnah Avenue, Blue Area, Islamabad"
+      },
+      "geometry": { "type": "Point", "coordinates": [73.0659, 33.7135] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maroof International Hospital",
+        "type": "Hospital",
+        "beds": 250,
+        "address": "F-10 Markaz, Islamabad"
+      },
+      "geometry": { "type": "Point", "coordinates": [73.0246, 33.7016] }
     }
   ]
 }
-
