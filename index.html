@@ -27,25 +27,27 @@
 
   <script>
     // Initialize map
-    var map = L.map('map').setView([33.7, 73.05], 7);
+    var map = L.map('map').setView([33.7, 73.05], 10);
 
     // Add OSM tiles
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
 
-    // Load hospitals.geojson (file is in root, not in data folder)
+    // Load hospitals.geojson
     fetch('hospitals.geojson')
       .then(res => res.json())
       .then(data => {
         L.geoJSON(data, {
           onEachFeature: function (feature, layer) {
-            layer.bindPopup(
-              `<b>${feature.properties.name}</b><br>` +
-              `${feature.properties.type}<br>` +
-              `Beds: ${feature.properties.beds}<br>` +
-              `${feature.properties.address}`
-            );
+            const props = feature.properties;
+            layer.bindPopup(`
+              <b>${props.name}</b><br>
+              Type: ${props.type || "Not available"}<br>
+              Ownership: ${props.ownership || "Not available"}<br>
+              Beds: ${props.beds || "Not available"}<br>
+              Address: ${props.address || "Not available"}
+            `);
           }
         }).addTo(map);
       });
