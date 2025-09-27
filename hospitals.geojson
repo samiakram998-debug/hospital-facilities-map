@@ -1,7 +1,6 @@
 {
   "type": "FeatureCollection",
   "features": [
-    <!-- ISLAMABAD -->
     {
       "type": "Feature",
       "properties": {
@@ -62,8 +61,6 @@
       },
       "geometry": { "type": "Point", "coordinates": [73.0585, 33.7120] }
     },
-
-    <!-- RAWALPINDI -->
     {
       "type": "Feature",
       "properties": {
