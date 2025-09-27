@@ -4,16 +4,6 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "General Hospital Islamabad",
-        "type": "Hospital",
-        "beds": 250,
-        "address": "Sector G-8, Islamabad"
-      },
-      "geometry": { "type": "Point", "coordinates": [73.0479, 33.6946] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "name": "Pakistan Institute of Medical Sciences (PIMS)",
         "type": "Hospital",
         "beds": 1000,
@@ -50,6 +40,46 @@
         "address": "F-10 Markaz, Islamabad"
       },
       "geometry": { "type": "Point", "coordinates": [73.0246, 33.7016] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Holy Family Hospital",
+        "type": "Hospital",
+        "beds": 850,
+        "address": "Satellite Town, Rawalpindi"
+      },
+      "geometry": { "type": "Point", "coordinates": [73.0667, 33.6264] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Benazir Bhutto Hospital (Rawalpindi General Hospital)",
+        "type": "Hospital",
+        "beds": 950,
+        "address": "Murree Road, Rawalpindi"
+      },
+      "geometry": { "type": "Point", "coordinates": [73.0730, 33.6406] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Armed Forces Institute of Cardiology (AFIC)",
+        "type": "Specialized Hospital",
+        "beds": 400,
+        "address": "The Mall, Rawalpindi"
+      },
+      "geometry": { "type": "Point", "coordinates": [73.0556, 33.5989] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rawalpindi Institute of Urology & Transplantation (RIUT)",
+        "type": "Specialized Hospital",
+        "beds": 200,
+        "address": "Tipu Road, Rawalpindi"
+      },
+      "geometry": { "type": "Point", "coordinates": [73.0775, 33.6055] }
     }
   ]
 }
