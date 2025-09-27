@@ -1,179 +1,2941 @@
 {
   "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-09-27T11:14:14Z",
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "name": "Pakistan Institute of Medical Sciences (PIMS)",
-        "type": "Hospital",
-        "beds": 592,
-        "address": "Sector G-8/3, Islamabad"
+        "@id": "relation/3094969",
+        "amenity": "hospital",
+        "landuse": "military",
+        "name": "Military Hospital",
+        "type": "multipolygon",
+        "@geometry": "center"
       },
-      "geometry": { "type": "Point", "coordinates": [73.056368, 33.703662] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.044168,
+          33.5956615
+        ]
+      },
+      "id": "relation/3094969"
     },
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/22328601",
+        "addr:city": "اسلام آباد",
+        "addr:city:ar": "إسلام آباد",
+        "addr:city:en": "Islamabad",
+        "addr:city:ks": "اِسلام آبادٖ",
+        "addr:city:pnb": "اسلام آباد",
+        "addr:city:ps": "اسلام آباد",
+        "addr:city:sd": "اسلام آباد",
+        "addr:city:ur": "اسلام آباد",
+        "addr:street": "Ibn-e-Sina Road",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Pakistan Institute for Medical Sciences (PIMS)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0526383,
+          33.7022057
+        ]
+      },
+      "id": "way/22328601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/22999246",
+        "addr:city": "اسلام آباد",
+        "addr:street": "حنا روڈ",
+        "amenity": "hospital",
+        "area": "yes",
+        "healthcare": "hospital",
+        "name": "نوری ہسپتال",
+        "name:en": "Noori Hospital",
+        "name:ur": "نوری ہسپتال",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0535524,
+          33.6994213
+        ]
+      },
+      "id": "way/22999246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/23040333",
+        "addr:city": "اسلام آباد",
+        "addr:city:ar": "إسلام آباد",
+        "addr:city:en": "Islamabad",
+        "addr:city:ks": "اِسلام آبادٖ",
+        "addr:city:pnb": "اسلام آباد",
+        "addr:city:ps": "اسلام آباد",
+        "addr:city:sd": "اسلام آباد",
+        "addr:city:ur": "اسلام آباد",
+        "addr:street": "Pitras Bukhari Road",
+        "amenity": "hospital",
+        "email": "info@shifa.com.pk",
         "name": "Shifa International Hospital",
-        "type": "Hospital",
-        "beds": 550,
-        "address": "Pitras Bukhari Rd, Islamabad"
+        "phone": "+92-51-846-3000",
+        "website": "https://www.shifa.com.pk/contact/",
+        "@geometry": "center"
       },
-      "geometry": { "type": "Point", "coordinates": [73.0676, 33.6752] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0667951,
+          33.6759211
+        ]
+      },
+      "id": "way/23040333"
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Kulsum International Hospital",
-        "type": "Hospital",
-        "beds": 200,
-        "address": "Jinnah Avenue / Blue Area, Islamabad"
+        "@id": "way/23131106",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "is_in": "Rawalpindi, Islamabad",
+        "name": "Holy Family Hospital",
+        "wikidata": "Q30279984",
+        "wikipedia": "en:Holy Family Hospital, Rawalpindi",
+        "@geometry": "center"
       },
-      "geometry": { "type": "Point", "coordinates": [73.07275, 33.71809] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0569393,
+          33.6406495
+        ]
+      },
+      "id": "way/23131106"
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Polyclinic Hospital",
-        "type": "Hospital",
-        "beds": 545,
-        "address": "Shaheed-e-Millat Rd / G-6, Islamabad"
+        "@id": "way/23526696",
+        "amenity": "hospital",
+        "area": "yes",
+        "created_by": "Potlatch 0.8",
+        "name": "Al Ihsan Hospital",
+        "@geometry": "center"
       },
-      "geometry": { "type": "Point", "coordinates": [73.08281, 33.72110] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0611868,
+          33.5989984
+        ]
+      },
+      "id": "way/23526696"
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Ali Medical Centre",
-        "type": "Hospital",
-        "beds": 120,
-        "address": "Kohistan Rd, F-8 Markaz, Islamabad"
+        "@id": "way/23615365",
+        "amenity": "hospital",
+        "area": "yes",
+        "healthcare": "hospital",
+        "name": "DHQ Hospital",
+        "@geometry": "center"
       },
-      "geometry": { "type": "Point", "coordinates": [73.04176, 33.71047] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0529771,
+          33.6126522
+        ]
+      },
+      "id": "way/23615365"
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Maroof International Hospital",
-        "type": "Hospital",
-        "beds": 200,
-        "address": "F-10 Markaz, Islamabad"
+        "@id": "way/23615388",
+        "addr:postcode": "23451",
+        "addr:street": "MH Entrance",
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "cardiology",
+        "name": "AFIC (Armed Forces Institute of Cardiology)",
+        "opening_hours": "24/7",
+        "phone": "0302 5002553",
+        "@geometry": "center"
       },
-      "geometry": { "type": "Point", "coordinates": [73.01183, 33.69747] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0448193,
+          33.5971466
+        ]
+      },
+      "id": "way/23615388"
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Quaid-e-Azam International Hospital (QIH)",
-        "type": "Hospital",
-        "beds": 225,
-        "address": "Near Golra Morr, Peshawar Rd / H-13"
+        "@id": "way/23628336",
+        "addr:city": "راولپنڈی",
+        "addr:postcode": "46000",
+        "addr:street": "Mega Medical Complex, Saddar, Rawalpindi, Punjab 46000",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Mega Medical Complex,",
+        "@geometry": "center"
       },
-      "geometry": { "type": "Point", "coordinates": [72.97303, 33.62508] }
-    },
-
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Benazir Bhutto Hospital (Rawalpindi General)",
-        "type": "Hospital",
-        "beds": 750,
-        "address": "Murree Rd, Rawalpindi"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.046901,
+          33.5970392
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [73.07172, 33.62758] }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Holy Family Hospital (Rawalpindi)",
-        "type": "Hospital",
-        "beds": 864,
-        "address": "Satellite Town, Rawalpindi"
-      },
-      "geometry": { "type": "Point", "coordinates": [73.05778, 33.64056] }
+      "id": "way/23628336"
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Rawalpindi Institute of Cardiology (RIC)",
-        "type": "Hospital",
-        "beds": 272,
-        "address": "Rawal Rd, Rawalpindi"
+        "@id": "way/26270386",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "is_in": "Rawalpindi, Punjab, Pakistan",
+        "name": "Combined Military Hospital",
+        "@geometry": "center"
       },
-      "geometry": { "type": "Point", "coordinates": [73.08064, 33.61559] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0499032,
+          33.5802205
+        ]
+      },
+      "id": "way/26270386"
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Combined Military Hospital (CMH) Rawalpindi",
-        "type": "Hospital",
-        "beds": 1000,
-        "address": "CMH Rd, Rawalpindi"
+        "@id": "way/154535083",
+        "addr:city": "راولپنڈی",
+        "addr:city:en": "Rawalpindi",
+        "addr:city:fr": "Rawalpindi",
+        "addr:city:pa": "ਰਾਵਲਪਿੰਡੀ",
+        "addr:city:pnb": "راولپنڈی",
+        "addr:city:ur": "راولپنڈی",
+        "addr:street": "Sadiqabad Road",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;emergency",
+        "internet_access": "yes",
+        "name": "Bilal Hospital",
+        "@geometry": "center"
       },
-      "geometry": { "type": "Point", "coordinates": [73.047168, 33.581093] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0788869,
+          33.6338507
+        ]
+      },
+      "id": "way/154535083"
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Fauji Foundation Hospital (Rawalpindi)",
-        "type": "Hospital",
-        "beds": 600,
-        "address": "Jhelum Rd, Rawalpindi"
+        "@id": "way/209859224",
+        "amenity": "hospital",
+        "name": "MI Room",
+        "@geometry": "center"
       },
-      "geometry": { "type": "Point", "coordinates": [73.09548, 33.55233] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9978725,
+          33.6441192
+        ]
+      },
+      "id": "way/209859224"
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Railway General Hospital (Pakistan Railway Hospital)",
-        "type": "Hospital",
-        "beds": 200,
-        "address": "Railway Carriage Factory Rd, Westridge, Rawalpindi"
+        "@id": "way/229815093",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "cardiology",
+        "name": "Rawalpindi Institute of Cardiology",
+        "wikidata": "Q14956839",
+        "wikipedia": "en:Rawalpindi Institute of Cardiology",
+        "@geometry": "center"
       },
-      "geometry": { "type": "Point", "coordinates": [73.07562, 33.62732] }
-    },
-
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "Al-Shifa Trust Eye Hospital (Rawalpindi)",
-        "type": "Hospital / Eye-centre",
-        "beds": null,
-        "address": "Jhelum Road, Rawalpindi"
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0806386,
+          33.6155931
+        ]
       },
-      "geometry": { "type": "Point", "coordinates": [73.09222, 33.55944] }
-    },
-
-    {
-      "type": "Feature",
-      "properties": {
-        "name": "City Clinic (Commercial Market / Satellite Town, Rawalpindi) - proxy",
-        "type": "Clinic",
-        "beds": 8,
-        "address": "Commercial Market, Satellite Town, Rawalpindi (proxy location)"
-      },
-      "geometry": { "type": "Point", "coordinates": [73.07036, 33.63769] }
+      "id": "way/229815093"
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "F-10 Family Clinic (F-10 Markaz) - proxy",
-        "type": "Clinic",
-        "beds": 10,
-        "address": "F-10 Markaz, Islamabad (approx.)"
+        "@id": "way/230098290",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "AFPGMI",
+        "@geometry": "center"
       },
-      "geometry": { "type": "Point", "coordinates": [73.00332, 33.696824] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0460561,
+          33.581268
+        ]
+      },
+      "id": "way/230098290"
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "Blue Area Clinic (Blue Area, Islamabad) - proxy",
-        "type": "Clinic",
-        "beds": 12,
-        "address": "Blue Area, Jinnah Avenue, Islamabad (approx.)"
+        "@id": "way/230209332",
+        "amenity": "hospital",
+        "building": "yes",
+        "@geometry": "center"
       },
-      "geometry": { "type": "Point", "coordinates": [73.061926, 33.713335] }
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.033978,
+          33.6195331
+        ]
+      },
+      "id": "way/230209332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230405376",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Attock Hospital (Ptv) Limited",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.080697,
+          33.5542
+        ]
+      },
+      "id": "way/230405376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230792274",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Hassan Clinic",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0290527,
+          33.6034495
+        ]
+      },
+      "id": "way/230792274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230792287",
+        "addr:city": "New Awan Town",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Valley Clinic",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0242747,
+          33.6040541
+        ]
+      },
+      "id": "way/230792287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230792289",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Maryam Mamorial Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0245684,
+          33.603947
+        ]
+      },
+      "id": "way/230792289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231202008",
+        "addr:city": "New Awan Town",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Nusrat Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0246884,
+          33.603821
+        ]
+      },
+      "id": "way/231202008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231202009",
+        "addr:city": "New Awan Town",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Azmat Rashid",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0240254,
+          33.6040853
+        ]
+      },
+      "id": "way/231202009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231288591",
+        "addr:city": "راولپنڈی",
+        "addr:city:en": "Rawalpindi",
+        "addr:city:fr": "Rawalpindi",
+        "addr:city:pa": "ਰਾਵਲਪਿੰਡੀ",
+        "addr:city:pnb": "راولپنڈی",
+        "addr:city:ur": "راولپنڈی",
+        "addr:street": "Grand Trunk Road",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Al Syed Hospital Kidney Center",
+        "opening_hours": "Mo-Sa 12:00-16:00",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0879948,
+          33.5592305
+        ]
+      },
+      "id": "way/231288591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231288593",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Basharat Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0894572,
+          33.5586961
+        ]
+      },
+      "id": "way/231288593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231296885",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Amjad Medical Center",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9958775,
+          33.6145797
+        ]
+      },
+      "id": "way/231296885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/234457762",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0267702,
+          33.6152794
+        ]
+      },
+      "id": "way/234457762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/235084098",
+        "addr:city": "اسلام آباد",
+        "addr:city:en": "Islamabad",
+        "addr:city:fr": "Islamabad",
+        "addr:city:pa": "ਇਸਲਾਮਾਬਾਦ",
+        "addr:city:pnb": "اسلام آباد",
+        "addr:city:ur": "اسلام آباد",
+        "addr:postcode": "45210",
+        "addr:street": "سروس روڈ",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;psychiatry;chiropractic;orthopaedics;emergency;gynaecology;radiology;surgery;oncology",
+        "name": "Quaid-e-Azam International Hospital",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9730323,
+          33.6250779
+        ]
+      },
+      "id": "way/235084098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/236166896",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Hearts International",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0594517,
+          33.5895387
+        ]
+      },
+      "id": "way/236166896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237508439",
+        "amenity": "hospital",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0091465,
+          33.6099112
+        ]
+      },
+      "id": "way/237508439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/255764767",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "is_in": "Rawalpindi, Punjab, Pakistan",
+        "name": "CMH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0492626,
+          33.5816409
+        ]
+      },
+      "id": "node/255764767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/255954369",
+        "amenity": "hospital",
+        "created_by": "Potlatch 0.8a",
+        "is_in": "Rawalpindi Cantt.",
+        "name": "Healthways"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.057514,
+          33.5952769
+        ]
+      },
+      "id": "node/255954369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/260274365",
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "no",
+        "name": "NIH",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1386525,
+          33.6868972
+        ]
+      },
+      "id": "way/260274365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/263829331",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Rawal Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1223103,
+          33.6324354
+        ]
+      },
+      "id": "way/263829331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/263922691",
+        "addr:city": "Alipur",
+        "addr:street": "Lehtrar Road",
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Islamabad Medical Complex",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.170594,
+          33.6446906
+        ]
+      },
+      "id": "way/263922691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/263938546",
+        "amenity": "hospital",
+        "name": "TB Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0534519,
+          33.6261548
+        ]
+      },
+      "id": "way/263938546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/283736195",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Mushtaq Baig Shaheed Medical Clinic",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9640999,
+          33.6231606
+        ]
+      },
+      "id": "way/283736195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/307856160",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "DHA Clinic",
+        "operator": "DHA",
+        "operator:type": "private",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1417458,
+          33.5319477
+        ]
+      },
+      "id": "way/307856160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/361766392",
+        "amenity": "hospital",
+        "healthcare:speciality": "general; vaccination",
+        "name": "National Institute of Health",
+        "short_name": "NIH",
+        "vaccination": "poliomyelitis",
+        "website": "https://www.nih.org.pk/",
+        "wikipedia": "en:National Institute of Health, Islamabad",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1361593,
+          33.6890247
+        ]
+      },
+      "id": "way/361766392"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/391947342",
+        "addr:city": "اسلام آباد",
+        "addr:postcode": "44000",
+        "addr:street": "اسٹریٹ 8",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "ویل میڈ ہسپتال",
+        "name:en": "Well Med Hospital",
+        "name:ur": "ویل میڈ ہسپتال",
+        "operator": "ڈاکٹر شعیب حمید",
+        "operator:en": "Dr. Shoaib Hameed",
+        "operator:ur": "ڈاکٹر شعیب حمید",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9959488,
+          33.6640472
+        ]
+      },
+      "id": "way/391947342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/432916133",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Social Security Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0017,
+          33.6208147
+        ]
+      },
+      "id": "way/432916133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/439835000",
+        "addr:city": "اسلام آباد",
+        "addr:city:ar": "إسلام آباد",
+        "addr:city:en": "Islamabad",
+        "addr:city:ks": "اِسلام آبادٖ",
+        "addr:city:pnb": "اسلام آباد",
+        "addr:city:ps": "اسلام آباد",
+        "addr:city:sd": "اسلام آباد",
+        "addr:city:ur": "اسلام آباد",
+        "addr:housenumber": "I-10/1",
+        "addr:street": "Street 16",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "CDA Dispensary",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.041613,
+          33.6430879
+        ]
+      },
+      "id": "way/439835000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/476484646",
+        "addr:city": "راولپنڈی",
+        "addr:city:en": "Rawalpindi",
+        "addr:city:fr": "Rawalpindi",
+        "addr:city:pa": "ਰਾਵਲਪਿੰਡੀ",
+        "addr:city:pnb": "راولپنڈی",
+        "addr:city:ur": "راولپنڈی",
+        "addr:street": "Jhanda Chi Chi Road",
+        "amenity": "hospital",
+        "building": "hospital",
+        "name": "Jinnah Memorial Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0658643,
+          33.5924667
+        ]
+      },
+      "id": "way/476484646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/560495163",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Golra Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.975568,
+          33.6896972
+        ]
+      },
+      "id": "way/560495163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/627832454",
+        "addr:city": "راولپنڈی",
+        "addr:city:en": "Rawalpindi",
+        "addr:city:fr": "Rawalpindi",
+        "addr:city:pa": "ਰਾਵਲਪਿੰਡੀ",
+        "addr:city:pnb": "راولپنڈی",
+        "addr:city:ur": "راولپنڈی",
+        "addr:street": "Sir Syed Road",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Bangash Clinic",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0635304,
+          33.5905573
+        ]
+      },
+      "id": "way/627832454"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/686205092",
+        "addr:city": "راولپنڈی",
+        "addr:city:en": "Rawalpindi",
+        "addr:city:fr": "Rawalpindi",
+        "addr:city:pa": "ਰਾਵਲਪਿੰਡੀ",
+        "addr:city:pnb": "راولپنڈی",
+        "addr:city:ur": "راولپنڈی",
+        "amenity": "hospital",
+        "name": "Cantonment Board Gen Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0503198,
+          33.5986082
+        ]
+      },
+      "id": "way/686205092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/833358961",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Leprosy Hospital Rawalpindi",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0726405,
+          33.6185713
+        ]
+      },
+      "id": "way/833358961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/995895934",
+        "addr:city": "راولپنڈی",
+        "addr:city:en": "Rawalpindi",
+        "addr:city:fr": "Rawalpindi",
+        "addr:city:pa": "ਰਾਵਲਪਿੰਡੀ",
+        "addr:city:pnb": "راولپنڈی",
+        "addr:city:ur": "راولپنڈی",
+        "addr:street": "Grand Trunk Road",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Al-Shifa Eye Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0919349,
+          33.5600107
+        ]
+      },
+      "id": "way/995895934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/996254508",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "شفیع انٹرنیشنل ہسپتال",
+        "name:en": "Shaafi International Hospital",
+        "name:ur": "شفیع انٹرنیشنل ہسپتال",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1298696,
+          33.5661997
+        ]
+      },
+      "id": "way/996254508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/998136388",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Fauji Foundation Hospital",
+        "name:en": "Fauji Foundation Hospital",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0954809,
+          33.5523248
+        ]
+      },
+      "id": "way/998136388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1097694476",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1557714,
+          33.6488185
+        ]
+      },
+      "id": "way/1097694476"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1159392036",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Medical Center",
+        "source": "microsoft/BuildingFootprints",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1572233,
+          33.6509974
+        ]
+      },
+      "id": "way/1159392036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1362714223",
+        "amenity": "hospital",
+        "name": "Safari Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1063687,
+          33.5732
+        ]
+      },
+      "id": "node/1362714223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1668718996",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Shakeela Shabir Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1753981,
+          33.6454153
+        ]
+      },
+      "id": "node/1668718996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1668719004",
+        "addr:city": "اسلام آباد",
+        "addr:city:ar": "إسلام آباد",
+        "addr:city:en": "Islamabad",
+        "addr:city:ks": "اِسلام آبادٖ",
+        "addr:city:pnb": "اسلام آباد",
+        "addr:city:ps": "اسلام آباد",
+        "addr:city:sd": "اسلام آباد",
+        "addr:city:ur": "اسلام آباد",
+        "addr:housenumber": "Madina Town",
+        "addr:postcode": "46000",
+        "addr:street": "Lehtrar Road Alipur",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Begam Jan Hospital",
+        "phone": "+923235380006"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1744526,
+          33.6453694
+        ]
+      },
+      "id": "node/1668719004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2147104935",
+        "addr:city": "اسلام آباد",
+        "addr:city:ar": "إسلام آباد",
+        "addr:city:en": "Islamabad",
+        "addr:city:ks": "اِسلام آبادٖ",
+        "addr:city:pnb": "اسلام آباد",
+        "addr:city:ps": "اسلام آباد",
+        "addr:city:sd": "اسلام آباد",
+        "addr:city:ur": "اسلام آباد",
+        "addr:street": "Local path",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Bilquis Memorial Hospital",
+        "source": "Survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.030179,
+          33.6924791
+        ]
+      },
+      "id": "node/2147104935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2382402089",
+        "amenity": "hospital",
+        "name": "Nawaz Memorial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0811759,
+          33.5635945
+        ]
+      },
+      "id": "node/2382402089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2441070147",
+        "amenity": "hospital",
+        "name": "Chinese"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0090668,
+          33.6098102
+        ]
+      },
+      "id": "node/2441070147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2445280289",
+        "amenity": "hospital",
+        "name": "Iqbal Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0166268,
+          33.6066048
+        ]
+      },
+      "id": "node/2445280289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2452453305",
+        "amenity": "hospital",
+        "name": "nisar hospital",
+        "name:en": "nisar hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0188593,
+          33.6059169
+        ]
+      },
+      "id": "node/2452453305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2461171369",
+        "amenity": "hospital",
+        "name": "Nghat Altrsound"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0168038,
+          33.6065199
+        ]
+      },
+      "id": "node/2461171369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2606410068",
+        "addr:city": "راولپنڈی",
+        "addr:city:en": "Rawalpindi",
+        "addr:city:fr": "Rawalpindi",
+        "addr:city:pnb": "راولپنڈی",
+        "addr:city:ur": "راولپنڈی",
+        "addr:housenumber": "49A",
+        "addr:postcode": "44000",
+        "addr:street": "Iran Road",
+        "amenity": "hospital",
+        "email": "admin@brainsurgeryhospital.com",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;neurosurgery;gynaecology;orthopaedics",
+        "name": "Brain Surgery Hospital",
+        "website": "https://brainsurgeryhospital.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.077516,
+          33.6365733
+        ]
+      },
+      "id": "node/2606410068"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2656259979",
+        "addr:city": "اسلام آباد",
+        "addr:city:ar": "إسلام آباد",
+        "addr:city:en": "Islamabad",
+        "addr:city:ks": "اِسلام آبادٖ",
+        "addr:city:pnb": "اسلام آباد",
+        "addr:city:ps": "اسلام آباد",
+        "addr:city:sd": "اسلام آباد",
+        "addr:city:ur": "اسلام آباد",
+        "addr:housenumber": "H-11/4",
+        "addr:street": "Plot 94",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "NESCOM Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0174122,
+          33.6490366
+        ]
+      },
+      "id": "node/2656259979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2668896365",
+        "amenity": "hospital",
+        "name": "Unanimous Hospital and Laboratory"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1283915,
+          33.5998733
+        ]
+      },
+      "id": "node/2668896365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2668920461",
+        "amenity": "clinic",
+        "name": "Fatima Family Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1299175,
+          33.5962565
+        ]
+      },
+      "id": "node/2668920461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3335659593",
+        "addr:street": "Railway Road S",
+        "amenity": "clinic",
+        "name": "Dar Medical Complex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1335045,
+          33.5905814
+        ]
+      },
+      "id": "node/3335659593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3439434300",
+        "amenity": "clinic",
+        "name": "Msz Khan Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0089714,
+          33.6144491
+        ]
+      },
+      "id": "node/3439434300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4082300074",
+        "amenity": "hospital",
+        "name": "Anwar Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0375314,
+          33.6001519
+        ]
+      },
+      "id": "node/4082300074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4082300079",
+        "amenity": "hospital",
+        "name": "Al Sadiq-Saad Shaheed Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0379027,
+          33.6000488
+        ]
+      },
+      "id": "node/4082300079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4146428757",
+        "addr:city": "راولپنڈی",
+        "addr:city:en": "Rawalpindi",
+        "addr:city:fr": "Rawalpindi",
+        "addr:city:pa": "ਰਾਵਲਪਿੰਡੀ",
+        "addr:city:pnb": "راولپنڈی",
+        "addr:city:ur": "راولپنڈی",
+        "addr:postcode": "44000",
+        "addr:street": "Latif Plaza near Taxi stand, Dhok Kala Khan",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Sohail Medical Clinic& Diagnostic Lab",
+        "operator": "Sohail Bacha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0894975,
+          33.650695
+        ]
+      },
+      "id": "node/4146428757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4252478793",
+        "addr:postcode": "46000",
+        "addr:street": "PAF Base Nur Khan ",
+        "amenity": "hospital",
+        "name": "Patient Care Centre",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0855021,
+          33.6101818
+        ]
+      },
+      "id": "node/4252478793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4273581690",
+        "addr:street": "Murree Road",
+        "amenity": "clinic",
+        "name": "Humdard Dawakhana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0606375,
+          33.5985245
+        ]
+      },
+      "id": "node/4273581690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4409229790",
+        "addr:city": "راولپنڈی",
+        "addr:city:en": "Rawalpindi",
+        "addr:city:fr": "Rawalpindi",
+        "addr:city:pa": "ਰਾਵਲਪਿੰਡੀ",
+        "addr:city:pnb": "راولپنڈی",
+        "addr:city:ur": "راولپنڈی",
+        "addr:street": "Iran Road",
+        "amenity": "clinic",
+        "name": "Heart Care Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0771008,
+          33.636453
+        ]
+      },
+      "id": "node/4409229790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4467122089",
+        "amenity": "hospital",
+        "internet_access": "wlan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0488314,
+          33.6426353
+        ]
+      },
+      "id": "node/4467122089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4475167191",
+        "amenity": "clinic",
+        "name": "Laprosy Hospital",
+        "opening_hours": "Mo-Fr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0733784,
+          33.6174945
+        ]
+      },
+      "id": "node/4475167191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4533827300",
+        "addr:street": "1278 A. St 15. O 9 Sector. Police Foundation. Near Tehzeeb Bakers. Islamabad",
+        "amenity": "hospital",
+        "name": "Dua Family Hospital",
+        "name:en": "Dua Family Hospital",
+        "opening_hours": "Mo-Fr 17:00-21:00",
+        "phone": "03005818148"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1375352,
+          33.566509
+        ]
+      },
+      "id": "node/4533827300"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4581586890",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ali hospital",
+        "name:en": "Ali hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0580065,
+          33.6575297
+        ]
+      },
+      "id": "node/4581586890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4590878152",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Farid Family Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0237556,
+          33.5980529
+        ]
+      },
+      "id": "node/4590878152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4594571080",
+        "addr:city": "Rawalpindi Cantt.",
+        "addr:postcode": "46000",
+        "addr:street": "مال روڈ",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Premium Diagnostic Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.051399,
+          33.5935408
+        ]
+      },
+      "id": "node/4594571080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4596125582",
+        "amenity": "clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0887234,
+          33.6508781
+        ]
+      },
+      "id": "node/4596125582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4603298715",
+        "amenity": "hospital",
+        "name": "family hospital",
+        "name:en": "family hospital",
+        "phone": "03044684629"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9955142,
+          33.6146108
+        ]
+      },
+      "id": "node/4603298715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4603323292",
+        "amenity": "clinic",
+        "name": "Bismillah diagonostic centre",
+        "name:en": "Bismillah diagonostic centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9962316,
+          33.6144206
+        ]
+      },
+      "id": "node/4603323292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4666195507",
+        "amenity": "hospital",
+        "name": "Emergency Holy Family Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0579331,
+          33.6415427
+        ]
+      },
+      "id": "node/4666195507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4692624592",
+        "addr:housenumber": "291-B(1)",
+        "addr:postcode": "46000",
+        "amenity": "hospital",
+        "email": "abrarsurgery1@yahoo.com",
+        "name": "Abrar Surgery",
+        "name:en": "Abrar Surgery",
+        "phone": "051-5565813"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0317435,
+          33.6021195
+        ]
+      },
+      "id": "node/4692624592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4715980289",
+        "addr:city": "اسلام آباد",
+        "addr:city:ar": "إسلام آباد",
+        "addr:city:en": "Islamabad",
+        "addr:city:ks": "اِسلام آبادٖ",
+        "addr:city:pnb": "اسلام آباد",
+        "addr:city:ps": "اسلام آباد",
+        "addr:city:sd": "اسلام آباد",
+        "addr:city:ur": "اسلام آباد",
+        "addr:housenumber": "H-11/1",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "PAEC General Hospital",
+        "opening_hours": "24/7",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0158687,
+          33.6522249
+        ]
+      },
+      "id": "node/4715980289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4720409791",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "سینٹ جوزف ہاسپیس",
+        "name:de": "Hospiz Sankt Joseph",
+        "name:en": "St Joseph Hospice",
+        "name:es": "Hospicio San José",
+        "name:ur": "سینٹ جوزف ہاسپیس"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0265796,
+          33.6152537
+        ]
+      },
+      "id": "node/4720409791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4786631410",
+        "addr:city": "راولپنڈی",
+        "addr:city:en": "Rawalpindi",
+        "addr:city:fr": "Rawalpindi",
+        "addr:city:pa": "ਰਾਵਲਪਿੰਡੀ",
+        "addr:city:pnb": "راولپنڈی",
+        "addr:city:ur": "راولپنڈی",
+        "addr:street": "Khanna Road",
+        "amenity": "clinic",
+        "name": "Emaan Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0966195,
+          33.6280326
+        ]
+      },
+      "id": "node/4786631410"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4863150921",
+        "addr:postcode": "46000",
+        "addr:street": "Street 18",
+        "amenity": "clinic",
+        "name": "Al Ghufran Hijama Centre",
+        "opening_hours": "Mo-Su 09:00-18:00",
+        "phone": "03155115035",
+        "website": "https://www.alhijamah.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1273287,
+          33.5996076
+        ]
+      },
+      "id": "node/4863150921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4880197909",
+        "addr:city": "اسلام آباد",
+        "addr:city:ar": "إسلام آباد",
+        "addr:city:en": "Islamabad",
+        "addr:city:ks": "اِسلام آبادٖ",
+        "addr:city:pnb": "اسلام آباد",
+        "addr:city:ps": "اسلام آباد",
+        "addr:city:sd": "اسلام آباد",
+        "addr:city:ur": "اسلام آباد",
+        "addr:street": "Shabir Sharif Road",
+        "amenity": "hospital",
+        "name": "Maryam Hospital and Diagnostic Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9981512,
+          33.6677207
+        ]
+      },
+      "id": "node/4880197909"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4889677808",
+        "addr:city": "اسلام آباد",
+        "addr:city:ar": "إسلام آباد",
+        "addr:city:en": "Islamabad",
+        "addr:city:ks": "اِسلام آبادٖ",
+        "addr:city:pnb": "اسلام آباد",
+        "addr:city:ps": "اسلام آباد",
+        "addr:city:sd": "اسلام آباد",
+        "addr:city:ur": "اسلام آباد",
+        "addr:street": "Service Road East G-10",
+        "amenity": "hospital",
+        "name": "Al Ain International Specialist Eye Hospital",
+        "phone": "03005319353"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0208068,
+          33.6863031
+        ]
+      },
+      "id": "node/4889677808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4889677811",
+        "addr:city": "اسلام آباد",
+        "addr:city:ar": "إسلام آباد",
+        "addr:city:en": "Islamabad",
+        "addr:city:ks": "اِسلام آبادٖ",
+        "addr:city:pnb": "اسلام آباد",
+        "addr:city:ps": "اسلام آباد",
+        "addr:city:sd": "اسلام آباد",
+        "addr:city:ur": "اسلام آباد",
+        "addr:street": "Service Road South G9",
+        "amenity": "hospital",
+        "name": "K R L General Hospital",
+        "opening_hours": "Mo-Sa 11:00-14:00",
+        "phone": "0519106270"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0318287,
+          33.6776437
+        ]
+      },
+      "id": "node/4889677811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4889744126",
+        "addr:city": "اسلام آباد",
+        "addr:city:ar": "إسلام آباد",
+        "addr:city:en": "Islamabad",
+        "addr:city:ks": "اِسلام آبادٖ",
+        "addr:city:pnb": "اسلام آباد",
+        "addr:city:ps": "اسلام آباد",
+        "addr:city:sd": "اسلام آباد",
+        "addr:city:ur": "اسلام آباد",
+        "addr:street": "Gali 109",
+        "amenity": "clinic",
+        "name": "Dr. Taliya's Clinic",
+        "phone": "0512260010"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0400877,
+          33.689503
+        ]
+      },
+      "id": "node/4889744126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4899052823",
+        "addr:city": "اسلام آباد",
+        "addr:city:ar": "إسلام آباد",
+        "addr:city:en": "Islamabad",
+        "addr:city:ks": "اِسلام آبادٖ",
+        "addr:city:pnb": "اسلام آباد",
+        "addr:city:ps": "اسلام آباد",
+        "addr:city:sd": "اسلام آباد",
+        "addr:city:ur": "اسلام آباد",
+        "addr:street": "Street 9",
+        "amenity": "hospital",
+        "name": "National Institute for Handicapped"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0412787,
+          33.6960409
+        ]
+      },
+      "id": "node/4899052823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4899052824",
+        "addr:city": "اسلام آباد",
+        "addr:city:ar": "إسلام آباد",
+        "addr:city:en": "Islamabad",
+        "addr:city:ks": "اِسلام آبادٖ",
+        "addr:city:pnb": "اسلام آباد",
+        "addr:city:ps": "اسلام آباد",
+        "addr:city:sd": "اسلام آباد",
+        "addr:city:ur": "اسلام آباد",
+        "addr:street": "Street 9",
+        "amenity": "hospital",
+        "name": "National Institute of Rehabilitation Medicine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0419063,
+          33.6963265
+        ]
+      },
+      "id": "node/4899052824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4899250509",
+        "addr:city": "راولپنڈی",
+        "addr:city:en": "Rawalpindi",
+        "addr:city:fr": "Rawalpindi",
+        "addr:city:pa": "ਰਾਵਲਪਿੰਡੀ",
+        "addr:city:pnb": "راولپنڈی",
+        "addr:city:ur": "راولپنڈی",
+        "addr:street": "Murree Road",
+        "amenity": "clinic",
+        "name": "Ali Homeopathic Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.08188,
+          33.6549354
+        ]
+      },
+      "id": "node/4899250509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4899252258",
+        "addr:city": "راولپنڈی",
+        "addr:city:en": "Rawalpindi",
+        "addr:city:fr": "Rawalpindi",
+        "addr:city:pa": "ਰਾਵਲਪਿੰਡੀ",
+        "addr:city:pnb": "راولپنڈی",
+        "addr:city:ur": "راولپنڈی",
+        "addr:street": "6th Road",
+        "amenity": "hospital",
+        "name": "Urgent Medical Diagnostics Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0782873,
+          33.6418166
+        ]
+      },
+      "id": "node/4899252258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4899417042",
+        "addr:city": "راولپنڈی",
+        "addr:city:en": "Rawalpindi",
+        "addr:city:fr": "Rawalpindi",
+        "addr:city:pa": "ਰਾਵਲਪਿੰਡੀ",
+        "addr:city:pnb": "راولپنڈی",
+        "addr:city:ur": "راولپنڈی",
+        "addr:street": "Iran Road",
+        "amenity": "hospital",
+        "name": "Gulf Medical Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.076541,
+          33.6353124
+        ]
+      },
+      "id": "node/4899417042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4899417047",
+        "addr:city": "راولپنڈی",
+        "addr:city:en": "Rawalpindi",
+        "addr:city:fr": "Rawalpindi",
+        "addr:city:pa": "ਰਾਵਲਪਿੰਡੀ",
+        "addr:city:pnb": "راولپنڈی",
+        "addr:city:ur": "راولپنڈی",
+        "addr:street": "Sadiqabad Road",
+        "amenity": "hospital",
+        "name": "Ahmad Medical Complex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0769578,
+          33.6338782
+        ]
+      },
+      "id": "node/4899417047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4942271323",
+        "amenity": "hospital",
+        "name": "Eidhi",
+        "name:en": "Eidhi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0661308,
+          33.6354707
+        ]
+      },
+      "id": "node/4942271323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4942273023",
+        "amenity": "clinic",
+        "name": "Doctor Tariq Ghani clinic",
+        "name:en": "Doctor Tariq Ghani clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0594565,
+          33.632542
+        ]
+      },
+      "id": "node/4942273023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4958569728",
+        "addr:city": "اسلام آباد",
+        "addr:city:ar": "إسلام آباد",
+        "addr:city:en": "Islamabad",
+        "addr:city:ks": "اِسلام آبادٖ",
+        "addr:city:pnb": "اسلام آباد",
+        "addr:city:ps": "اسلام آباد",
+        "addr:city:sd": "اسلام آباد",
+        "addr:city:ur": "اسلام آباد",
+        "addr:street": "Sawan Road",
+        "amenity": "hospital",
+        "name": "Life Care international Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0153103,
+          33.676802
+        ]
+      },
+      "id": "node/4958569728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4961843228",
+        "addr:city": "اسلام آباد",
+        "addr:city:ar": "إسلام آباد",
+        "addr:city:en": "Islamabad",
+        "addr:city:ks": "اِسلام آبادٖ",
+        "addr:city:pnb": "اسلام آباد",
+        "addr:city:ps": "اسلام آباد",
+        "addr:city:sd": "اسلام آباد",
+        "addr:city:ur": "اسلام آباد",
+        "addr:street": "Street 30",
+        "amenity": "hospital",
+        "name": "IHS - Hospital for Children"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0056544,
+          33.6862496
+        ]
+      },
+      "id": "node/4961843228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4996056821",
+        "amenity": "clinic",
+        "name": "Dr.  Zia ul Haq MBBS Karam abad",
+        "name:en": "Dr.  Zia ul Haq MBBS Karam abad",
+        "opening_hours": "Mo-Su 09:00-13:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9791653,
+          33.6015683
+        ]
+      },
+      "id": "node/4996056821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5007417222",
+        "amenity": "hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0469363,
+          33.579864
+        ]
+      },
+      "id": "node/5007417222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5152915622",
+        "addr:housenumber": "Sector G-7/4",
+        "addr:street": "Street 40",
+        "amenity": "hospital",
+        "name": "Riphah International Dental Hospital University",
+        "opening_hours": "Mo-Sa 08:30-19:00; Su 00:00-24:00",
+        "phone": "0512891835"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9584212,
+          33.6524304
+        ]
+      },
+      "id": "node/5152915622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5165252847",
+        "addr:city": "راولپنڈی",
+        "addr:city:en": "Rawalpindi",
+        "addr:city:fr": "Rawalpindi",
+        "addr:city:pa": "ਰਾਵਲਪਿੰਡੀ",
+        "addr:city:pnb": "راولپنڈی",
+        "addr:city:ur": "راولپنڈی",
+        "addr:street": "Allama Iqbal Avenue",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Reliance Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1256281,
+          33.5503077
+        ]
+      },
+      "id": "node/5165252847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5183619921",
+        "addr:street": "Abid Majeed Road",
+        "amenity": "clinic",
+        "name": "Maj Gen Salman Ali Clinic",
+        "phone": "0515136908"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0412225,
+          33.5969941
+        ]
+      },
+      "id": "node/5183619921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5251807396",
+        "addr:city": "راولپنڈی",
+        "addr:city:en": "Rawalpindi",
+        "addr:city:fr": "Rawalpindi",
+        "addr:city:pa": "ਰਾਵਲਪਿੰਡੀ",
+        "addr:city:pnb": "راولپنڈی",
+        "addr:city:ur": "راولپنڈی",
+        "addr:street": "Service Road",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "KKT Orthopedic Spine Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9726232,
+          33.6245387
+        ]
+      },
+      "id": "node/5251807396"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5259747058",
+        "addr:city": "Lahore",
+        "addr:street": "Railway Workshop Road",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Railway Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0340847,
+          33.6191432
+        ]
+      },
+      "id": "node/5259747058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5568817324",
+        "addr:housenumber": "235/3",
+        "addr:street": "Gulzar e Fatima Park",
+        "amenity": "clinic",
+        "name": "Speech Therapy STCICLD",
+        "phone": "+923329344003"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0715097,
+          33.635038
+        ]
+      },
+      "id": "node/5568817324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5595279927",
+        "amenity": "hospital",
+        "name": "Islamabad Diagnostics Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9971978,
+          33.6685704
+        ]
+      },
+      "id": "node/5595279927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5617897022",
+        "amenity": "hospital",
+        "name": "OT Complex CMH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0467102,
+          33.5788323
+        ]
+      },
+      "id": "node/5617897022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5617899521",
+        "addr:street": "PAF Base Nur Khan",
+        "amenity": "clinic",
+        "name": "Family Medical Wing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0855158,
+          33.6102975
+        ]
+      },
+      "id": "node/5617899521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5979229385",
+        "addr:street": "Saidpur Road",
+        "amenity": "clinic",
+        "name": "Prof Dr. Aslam Chaudhry ENT Specilist",
+        "phone": "0514426886"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0632605,
+          33.6386926
+        ]
+      },
+      "id": "node/5979229385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6186225788",
+        "amenity": "hospital",
+        "name": "Clinics and Diagnostics Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9637335,
+          33.645756
+        ]
+      },
+      "id": "node/6186225788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6186304588",
+        "amenity": "clinic",
+        "name": "Salfi House",
+        "operator": "Iqbal Salfi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1419481,
+          33.5631047
+        ]
+      },
+      "id": "node/6186304588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6199004686",
+        "amenity": "hospital",
+        "name": "Ali Hospital",
+        "phone": "0514444435"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0333924,
+          33.6794571
+        ]
+      },
+      "id": "node/6199004686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6208206588",
+        "addr:city": "اسلام آباد",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Latif Health Centre",
+        "name:en": "Latif Health Centre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0156937,
+          33.6764623
+        ]
+      },
+      "id": "node/6208206588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6219159985",
+        "amenity": "hospital",
+        "name": "Capital Institute of Health Sciences (CIHS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0040255,
+          33.6731737
+        ]
+      },
+      "id": "node/6219159985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6237656989",
+        "amenity": "clinic",
+        "name": "Dr. Shahid’s Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9633589,
+          33.655552
+        ]
+      },
+      "id": "node/6237656989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6265094288",
+        "addr:city": "اسلام آباد",
+        "addr:street": "حنا روڈ",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "نوری ہسپتال اسلام آباد",
+        "name:en": "Noori Hospital Islamabad",
+        "name:ur": "نوری ہسپتال اسلام آباد"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.052962,
+          33.6990693
+        ]
+      },
+      "id": "node/6265094288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6432256681",
+        "addr:city": "islamabad",
+        "addr:housenumber": "-",
+        "addr:street": "Street 110",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Clinic and Dignostic Centre",
+        "operator": "-"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9638728,
+          33.6456706
+        ]
+      },
+      "id": "node/6432256681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6432414579",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Anwer Capital Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9641192,
+          33.6452961
+        ]
+      },
+      "id": "node/6432414579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6658591445",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Zayneb Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1553234,
+          33.5418933
+        ]
+      },
+      "id": "node/6658591445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6658591446",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Aziz Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1495837,
+          33.5414502
+        ]
+      },
+      "id": "node/6658591446"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7015066185",
+        "amenity": "hospital",
+        "name": "Officers Family Ward CMH Rawalpindi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0471312,
+          33.5777397
+        ]
+      },
+      "id": "node/7015066185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7230243994",
+        "addr:city": "راولپنڈی",
+        "addr:city:en": "Rawalpindi",
+        "addr:city:fr": "Rawalpindi",
+        "addr:city:pa": "ਰਾਵਲਪਿੰਡੀ",
+        "addr:city:pnb": "راولپنڈی",
+        "addr:city:ur": "راولپنڈی",
+        "addr:housenumber": "78A",
+        "addr:postcode": "44000",
+        "addr:street": "Iran Road",
+        "amenity": "hospital",
+        "email": "admin@twincitylab.com",
+        "healthcare": "hospital",
+        "healthcare:speciality": "diagnostic_radiology;haematology;blood_check;blood_bank;cardiology",
+        "name": "Twin City Diagnostics",
+        "website": "https://twincitylab.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0788445,
+          33.640755
+        ]
+      },
+      "id": "node/7230243994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7284590738",
+        "addr:city": "راولپنڈی",
+        "addr:city:en": "Rawalpindi",
+        "addr:city:fr": "Rawalpindi",
+        "addr:city:pa": "ਰਾਵਲਪਿੰਡੀ",
+        "addr:city:pnb": "راولپنڈی",
+        "addr:city:ur": "راولپنڈی",
+        "addr:housenumber": "4th Floor",
+        "addr:postcode": "46000",
+        "addr:street": "Mahfooz Road",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Rahmat Noor Clinic",
+        "operator": "Dr. Javaid Mehmood Malik",
+        "operator:type": "private"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0462166,
+          33.5983726
+        ]
+      },
+      "id": "node/7284590738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7417878942",
+        "addr:city": "اسلام آباد",
+        "addr:city:ar": "إسلام آباد",
+        "addr:city:en": "Islamabad",
+        "addr:city:ks": "اِسلام آبادٖ",
+        "addr:city:pnb": "اسلام آباد",
+        "addr:city:ps": "اسلام آباد",
+        "addr:city:sd": "اسلام آباد",
+        "addr:city:ur": "اسلام آباد",
+        "addr:housenumber": "Nai abadi",
+        "addr:postcode": "46000",
+        "addr:street": "Alipur, Lethrar Road",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;surgery;gynaecology;ophthalmology;paediatrics",
+        "name": "HBS General Hospital",
+        "phone": "+92512621044"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1726511,
+          33.6448002
+        ]
+      },
+      "id": "node/7417878942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7722844785",
+        "addr:housenumber": "604-A",
+        "addr:street": "Peshawer Road",
+        "amenity": "clinic",
+        "email": "drmnaeemkhan@yahoo.com",
+        "name": "Major General (Retired) Dr. Mohammad Naeem Khan Neuro-Physician",
+        "operator": "Major General (R) Dr. Muhammad Naeem Khan (Neurophysician)",
+        "phone": "+923335145392"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0187797,
+          33.605765
+        ]
+      },
+      "id": "node/7722844785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8266905517",
+        "amenity": "hospital",
+        "name": "Asia kidney hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0875818,
+          33.5596878
+        ]
+      },
+      "id": "node/8266905517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8383739517",
+        "addr:housenumber": "256",
+        "addr:street": "Asghar Mall Road",
+        "amenity": "clinic",
+        "name": "Haji Muhammad Bashir مطب ہڈی جوڑ",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "phone": "0514415145"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0675033,
+          33.6290183
+        ]
+      },
+      "id": "node/8383739517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8841662156",
+        "amenity": "hospital",
+        "name": "Max Health Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0491988,
+          33.6976835
+        ]
+      },
+      "id": "node/8841662156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9501618144",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "شفاء ہیلتھ کئیر ہسپتال",
+        "name:ur": "شفاء ہیلتھ کئیر ہسپتال",
+        "opening_hours": "08:00-21:30",
+        "phone": "+923023255553",
+        "website": "https://shifa-health-care-hospital.business.site/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.944307,
+          33.6917797
+        ]
+      },
+      "id": "node/9501618144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9534110317",
+        "amenity": "clinic",
+        "name": "Mushtaq Baig Shaheed Medical Clinic",
+        "type": "building"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.9645556,
+          33.6230109
+        ]
+      },
+      "id": "node/9534110317"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11217189672",
+        "addr:street": "G-8 Markaz",
+        "amenity": "hospital",
+        "name": "Advanced International Hospital G-8 Markaz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0502887,
+          33.6963846
+        ]
+      },
+      "id": "node/11217189672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11655758860",
+        "addr:city": "Islamabad",
+        "addr:housenumber": "Shaheen Chowk",
+        "addr:postcode": "44000",
+        "addr:street": "Bahria Expy",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "dermatology;dermatovenereology",
+        "name": "AT Skin & Aesthetic Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0916469,
+          33.5214526
+        ]
+      },
+      "id": "node/11655758860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11669193623",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "dentistry;dental_oral_maxillo_facial_surgery;dentist",
+        "name": "Shifa College of Dentistry"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0956311,
+          33.6500194
+        ]
+      },
+      "id": "node/11669193623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11835524869",
+        "amenity": "hospital",
+        "name": "Hakim KAZMI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1470029,
+          33.578359
+        ]
+      },
+      "id": "node/11835524869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12014280627",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ghazi Clinic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0447003,
+          33.5076059
+        ]
+      },
+      "id": "node/12014280627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12056081581",
+        "addr:city": "راولپنڈی",
+        "addr:postcode": "46000",
+        "addr:street": "Mega Medical Complex, Saddar, Rawalpindi,",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Mega Medical Complex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0468936,
+          33.5972995
+        ]
+      },
+      "id": "node/12056081581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12143774524",
+        "addr:city": "Islamabad",
+        "addr:housenumber": "Ground Floor",
+        "addr:street": "Satti Arcade Lehtrar Road Khanna Pul",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "diabetology",
+        "name": "Alam Hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1189166,
+          33.6300435
+        ]
+      },
+      "id": "node/12143774524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12215025180",
+        "addr:city": "islamabad",
+        "addr:housenumber": "new gujjar khan medical store",
+        "addr:street": "Lehtrar Road",
+        "amenity": "hospital",
+        "email": "rahimhyder795@gmail.com",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "dentist;pharmacy",
+        "mobile": "+923421945217",
+        "name": "new gujjar khan medical store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1954238,
+          33.6520132
+        ]
+      },
+      "id": "node/12215025180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12229985624",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "IIUI MEDICAL CENTRE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.021572,
+          33.6621889
+        ]
+      },
+      "id": "node/12229985624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12754325901",
+        "addr:street": "Service Road East",
+        "amenity": "hospital",
+        "name": "Elaaj International Hospital Islamabad",
+        "opening_hours": "24/7",
+        "phone": "(051) 2619276",
+        "website": "https://elaajinternationalhospital.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1149925,
+          33.630284
+        ]
+      },
+      "id": "node/12754325901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12754336401",
+        "addr:street": "Service Road East",
+        "amenity": "hospital",
+        "name": "Health International Hospital",
+        "opening_hours": "24/7",
+        "phone": "(051) 2619271"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.1130521,
+          33.6327853
+        ]
+      },
+      "id": "node/12754336401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12844548570",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "noor generar hospital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.0004123,
+          33.6689967
+        ]
+      },
+      "id": "node/12844548570"
     }
-
   ]
 }
